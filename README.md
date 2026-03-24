@@ -96,7 +96,8 @@ summary(model, input_size=(1, 28, 28))
 # Train the autoencoder
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-
+    print("Name: THEJASHREE S")
+    print("Register Number: 212224240175")
     for epoch in range(epochs):
         running_loss = 0.0
 
@@ -132,6 +133,8 @@ def visualize_denoising(model, loader, num_images=10):
     images = images.cpu().numpy()
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
+    print("Name: THEJASHREE S")
+    print("Register Number: 212224240175")
 
     plt.figure(figsize=(18, 6))
 
@@ -170,11 +173,12 @@ visualize_denoising(model, test_loader)
 <img width="777" height="548" alt="Image" src="https://github.com/user-attachments/assets/6f889671-6944-40ce-bdf2-35ed515924b4" />
 
 ### Training loss
-<img width="867" height="129" alt="Image" src="https://github.com/user-attachments/assets/156f148d-0203-402f-9974-4261da144f50" />
+
+<img width="965" height="166" alt="image" src="https://github.com/user-attachments/assets/606805a8-16ce-47ed-9cad-9b3601c84222" />
 
 ## Original vs Noisy Vs Reconstructed Image
 
-<img width="1691" height="561" alt="Image" src="https://github.com/user-attachments/assets/21af5f99-5057-4506-bb64-66d919c65cb9" />
+<img width="1717" height="610" alt="image" src="https://github.com/user-attachments/assets/240a22be-b141-4235-b1dd-2447ba4bedd6" />
 
 ## RESULT
 Therefore, To develop a convolutional autoencoder for image denoising application executed successfully.
